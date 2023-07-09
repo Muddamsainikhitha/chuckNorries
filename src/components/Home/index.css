@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    blue,
+    skyblue,
+    skyblue,
+    grey,
+    grey
+  );
+  min-height: 100vh;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.heading {
+  color: green;
+  font-family: 'Roboto';
+  font-weight: 800;
+  text-align: center;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 40px;
+}
